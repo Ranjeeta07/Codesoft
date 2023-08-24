@@ -1,0 +1,58 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+.des{
+  background-color:lightgreen;
+  height: 100vh;
+  width: 100wh;
+ 
+  
+  
+}
+.des h1{
+  color: black;
+  font-size: 50px;
+  margin-left: 38%;
+ padding-top: 6%;
+  
+}
+.des1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+ 
+}
+#taskInput{
+  font-size: 27px;
+}
+
+
+ul{
+    list-style-type: none;
+    padding:0%
+   
+   
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    
+   
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid red;
+  }
+  button {
+    background-color:red;
+    color:white;
+    font-size: 23px;
+    border: none;
+    padding: 15px 15px;
+    cursor: pointer;
+  }
